@@ -1,0 +1,28 @@
+/* Colores personalizados */
+.text-gold {
+    color: gold;
+}
+
+.bg-gold {
+    background-color: gold;
+}
+
+/* Estilo para todas las imágenes del álbum */
+.img-fluid {
+    height: 300px; /* Tamaño deseado */
+    object-fit: cover; /* Para mantener la proporción y cubrir todo el espacio */
+}
+
+/* Reducir el ancho del carousel */
+.carousel-inner {
+    max-width: 600px; /* Ajusta este valor según tus necesidades */
+    margin: 0 auto; /* Para centrar el carrusel horizontalmente */
+}
+
+/* Ajustar tamaño de las imágenes del carousel */
+.carousel-item img {
+    max-height: 100%;
+    width: auto;
+    margin: 0 auto; /* Para centrar las imágenes horizontalmente */
+}
+
